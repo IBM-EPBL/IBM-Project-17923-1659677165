@@ -1,0 +1,12 @@
+So Far in Sprint-2 we downloaded the Dataset and Images for each classification of heart-diseaes.
+
+And now here we are Importing Libraries from pip
+
+1.ImageGenerator
+	-> pip install image-generator
+2.TensorFlow Keras -(An implementation of the Keras API that uses TensorFlow as a backend)
+	->pip install keras
+
+After this we've Registered For IBM Cloud.
+
+All About Sprint-2.
