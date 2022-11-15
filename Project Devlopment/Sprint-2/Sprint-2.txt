@@ -7,7 +7,7 @@ Due to there was too many images we cannot manually upload dataset so we created
 	-> pip install image-generator
 2.TensorFlow Keras -(An implementation of the Keras API that uses TensorFlow as a backend)
 	->pip install keras
-These are Done in locally.
+
 After this we've Registered For IBM Cloud.
 
 All About Sprint-2.
