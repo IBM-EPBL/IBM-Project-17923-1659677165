@@ -1,0 +1,91 @@
+<html>
+
+<style>
+	body{
+		/*background-color: black;*/
+		background-image: url("bg.mp4");
+	}
+	.nav1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		position: fixed;	  	
+	  	font-size: 20px;
+  		background: rgba(0, 0, 0, 0.5);
+  		background-color: white;
+  		opacity: 0.5;
+  		width: 100%;
+  		height: 75px;		
+	}
+   .dist{
+		margin-left: 40px;
+		width: 10%;		
+	}
+	#myVideo {
+	  position: fixed;	  
+ 	  right: 0;
+ 	  z-index: -1;
+      bottom: 0;
+  	  min-width: 100%; 
+      min-height: 100%;
+	}
+	
+	.panel{
+		margin-top: 10px;
+		width: 99%;
+		height: 50px;
+	}
+	.panel:hover{
+		background-color: white;
+	}
+   a{   	
+   	font-size: 17px;
+   	width: inherit;
+   	text-decoration: none;
+   	color: black;
+   }
+   a:hover{
+   	background-color: white;
+   }
+   .outer{
+   	display: flex;
+   	justify-content: center;
+   	align-content: center;
+   	position: fixed;
+  	bottom: 0;
+  	background: rgba(0, 0, 0, 0.5);
+  	color: #f1f1f1;
+  	width: 100%;
+  	padding: 20px;
+   }
+   .box{
+   	width:350px;
+   	background-color: gray;
+   	border-radius: 10px;
+   	border-color: black;
+   }
+</style>
+<head>
+	
+</head>
+<body>
+<video autoplay muted loop id="myVideo">
+  <source src="static/bg.mp4" type="video/mp4">
+</video>
+
+<nav class="nav1">
+		<a class="dist" href="home.html">Home</a> 	
+		<a class="dist" href="info.html">Information</a>
+		<a class="dist" href="upload.html">Predict Image</a>
+</nav>
+<div class ="outer">
+<div style="line-height: 60px; font-family: cursive; margin-top: 230px;color:indianred; font-family:monospace;"><center class="box">
+<div class="panel"><a href="Left_Bundle_Branch_Block.html" >Left_Bundle_Branch_Block</a><br></div>
+<div class="panel"><a href="Premature_Atrial_Contraction.html">Premature_Atrial_Contraction</a><br></div>
+<div class="panel"><a href="Premature_Ventricular_Contractions.html" >Premature_Ventricular_Contraction</a><br></div>
+<div class="panel"><a href="Right_Bundle_Branch_Block.html"  >Right_Bundle_Branch_Block</a><br></div>
+<div class="panel"><a href="Ventricular_Fibrillation.html" >Ventricular_Fibrillation</a><br></div>
+</center></div></div>
+	</body>
+</html>
